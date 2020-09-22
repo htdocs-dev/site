@@ -1,0 +1,21 @@
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+    - admonition
+nav:
+  - About: index.md
+  - 1. Installation: installation.md
+  - 2. DKIM and SPF: dkim_spf.md
+  - 3. DomainKeys: domainkeys.md
+  - 4. Open DMARC: opendmarc.md
+  - 5. Bounce Management: bounce.md
+  - 6. Rate Limiting: rate_limiting.md
+  - 7. IP Rotating: ip_rotating.md
+  - 8. Authentication: authentication.md
+  - 9. Multidomain: multidomain.md
+  - 10. Whitelisting: whitelisting.md
+  - 11. Advanced Setup: advanced_setup.md
+  - 12. Monitoring: monitoring.md
+  - 13. Conlusion and Tips: conclusion.md
