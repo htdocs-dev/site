@@ -1,0 +1,121 @@
+:root {
+  --md-primary-fg-color: #001A5E;
+  --md-primary-fg-color--light: #3c59ff;
+  --md-primary-fg-color--dark: #000152;
+  --md-default-fg-color--lightest: rgb(101, 180, 255);
+
+  --md-text-link-color: hsl(231deg 99% 66%);
+}
+
+:root>* {
+  --md-code-fg-color: #fff;
+  --md-code-bg-color: rgb(24, 48, 85);
+  --md-code-number-color: #ddd;
+}
+
+.md-header {
+  background-color: #fff;
+  padding-top: 0rem;
+  height: 3rem;
+  color: #001A5E;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+  border-bottom: 1px solid rgb(212, 218, 223);
+  background-color: rgb(255, 255, 255);
+  /* height: 70px; */
+}
+
+main {
+  background-color: rgb(245, 247, 249);
+}
+
+article>h1 {
+  padding: 40px 0 40px;
+
+  border-bottom: 1px solid rgb(230, 236, 241);
+}
+
+.md-content {
+  background-color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+
+.md-header-nav__button.md-logo img,
+.md-header-nav__button.md-logo svg {
+  border-radius: 3px;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+
+.md-header-nav__title {
+
+  font-size: 24px;
+  font-family: Content-font,
+    Roboto,
+    sans-serif;
+  font-weight: 500;
+  padding: 0.3rem 0.1rem;
+  /* line-height: 1.5;
+   */
+  /* padding-top: 10px;
+  overflow-wrap: break-word; */
+
+}
+
+.md-main__inner {
+  margin-top: 0px;
+}
+
+.md-sidebar {
+  padding-top: 40px;
+}
+
+.md-sidebar--primary {
+  background: rgb(245, 247, 249);
+  align-items: stretch;
+  border-right: 1px solid rgb(230, 236, 241);
+}
+
+
+
+.md-sidebar--secondary {
+  background-color: #fff;
+}
+
+.codehilitetable .linenodiv pre,
+.highlighttable .linenodiv pre {
+  color: rgb(92, 105, 117);
+
+}
+
+table.highlighttable>tbody>tr {
+  padding: 10px;
+
+  border-radius: 3px;
+  background-color: var(--md-code-bg-color);
+}
+
+.md-typeset code {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Source Code Pro",
+    Consolas,
+    Menlo,
+    Monaco,
+    Courier,
+    monospace;
+}
+
+.codehilitetable .linenodiv,
+.highlighttable .linenodiv {
+
+  box-shadow: -0.05rem 0 rgb(92, 105, 117) inset;
+}
+
+.md-typeset a {
+  color: var(--md-text-link-color);
+}
