@@ -1,0 +1,86 @@
+site_name: HTDOCS
+ite_description: 
+site_author: Stephane Busso
+site_url: https://htdocs.io
+repo_name: GitHub
+repo_url: https://github.com/htdocs-io/site
+edit_uri: edit/master/docs/
+copyright: 'Copyright &copy; 2020 HTDocs.io'
+theme:
+  name: material
+  language: 'en'
+  custom_dir: overrides
+  logo: assets/logo.png
+  font:
+    text: Roboto
+    code: 'Roboto Mono'
+  palette:
+    scheme: default
+    primary: blue
+  features:
+    - instant
+    - navigation.expand
+    - tabs
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/dracula.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sbusso
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sbusso
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/stephanebusso/
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - meta
+  - smarty
+  - sane_lists
+  - pymdownx.superfences
+  - pymdownx.progressbar:
+  - pymdownx.magiclink
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: False
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+  - toc:
+        permalink: True
+  - codehilite:
+        guess_lang: False
+        use_pygments: True
+        noclasses: True
+        pygments_style: dracula
+plugins: 
+  - search
+  - awesome-pages    
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  - autolinks
+# nav:
+#   - Airflow and Docker:
+#     - airflow_docker/index.md
+#   - Postfix Handbook: 
+#     - postfix/index.md
+#     - 1. Installation: postfix/installation.md
+#     - 2. DKIM and SPF: postfix/dkim_spf.md
+#     - 3. DomainKeys: postfix/domainkeys.md
+#     - 4. Open DMARC: postfix/opendmarc.md
+#     - 5. Bounce Management: postfix/bounce.md
+#     - 6. Rate Limiting: postfix/rate_limiting.md
+#     - 7. IP Rotating: postfix/ip_rotating.md
+#     - 8. Authentication: postfix/authentication.md
+#     - 9. Multidomain: postfix/multidomain.md
+#     - 10. Whitelisting: postfix/whitelisting.md
+#     - 11. Advanced Setup: postfix/advanced_setup.md
+#     - 12. Monitoring: postfix/monitoring.md
+#     - 13. Conlusion and Tips: postfix/conclusion.md
