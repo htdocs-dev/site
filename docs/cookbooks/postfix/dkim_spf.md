@@ -62,7 +62,7 @@ Publish the contents of file /etc/opendkim/keys/pronostic-facile.fr/default.txt 
 
     root@Ubuntu-1204-precise-64-minimal ~ # cat /etc/opendkim/keys/pronostic-facile.fr/default.txt
 
-    default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQIy9sM3H5n5WjaiiDnwG9iHg18y78eA0L8zyRbv3DPd6anfJ9D+kC4ypiqNBTTOBHa70tYe8pT3+4042S0QpVgnS8TaRpxxVY0rIJjnKBjrpbmCtWhcHfrcETAKxkTeXVvcDMjRRF4RA0r7mJ8hMSByGSHyxVM1VK9Ex+GBgO4QIDAQAB" ; ----- DKIM key default for pronostic-facile.fr
+    default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQU...yxVM1VK9Ex+GBgO4QIDAQAB" ; ----- DKIM key default for pronostic-facile.fr
 
     root@Ubuntu-1204-precise-64-minimal ~ #
 
