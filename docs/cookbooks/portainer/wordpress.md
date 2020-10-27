@@ -1,8 +1,6 @@
 ---
-title: Wordpress docker with Traefik and Portainer
+title: Easy Wordpress hosting with Docker and Portainer
 ---
-
-# Manage wordpress hosting with Docker, EasyEngine and Portainer
 
 EasyEngine did switch from installing php stack directly to the system to use docker images to create the different environments, but using command line. Using Portainer, we can skip those steps and manage deployment directly from the interface and control everything. But first we need to setup the system:
 
@@ -64,6 +62,12 @@ services:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
+      - "--entrypoints.web-secure.address=:443"
+      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge=true"
+      - "--certificatesresolvers.myhttpchallenge.acme.httpchallenge.entrypoint=web"
+      - "--pilot.token=df5c63a6-9fc1-4253-9c36-62f0ed4548c1"
+      - "--certificatesresolvers.myhttpchallenge.acme.email=stephane.busso@gmail.com"
+      - "--certificatesresolvers.myhttpchallenge.acme.storage=/letsencrypt/acme.json"            
     ports:
       - "80:80"
       - "443:443"
@@ -117,7 +121,7 @@ services:
       - "traefik.docker.network=traefik_default"
       # Get the routes from http
       - "traefik.http.routers.${SERVICE}.rule=Host(`${DOMAIN}`)"
-      - "traefik.http.routers.${SERVICE}.entrypoints=web"     
+      - "traefik.http.routers.${SERVICE}.entrypoints=web"
       # Redirect these routes to https
       - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
       - "traefik.http.routers.${SERVICE}.middlewares=redirect-to-https@docker"
@@ -126,7 +130,7 @@ services:
       - "traefik.http.routers.${SERVICE}-secured.entrypoints=web-secure"
       # Apply autentificiation with http challenge
       - "traefik.http.routers.${SERVICE}-secured.tls=true"
-      - "traefik.http.routers.${SERVICE}-secured.tls.certresolver=myhttpchallenge"             
+      - "traefik.http.routers.${SERVICE}-secured.tls.certresolver=myhttpchallenge"
 volumes:
     db_data:
 
@@ -137,8 +141,8 @@ networks:
   backend:
 ```
 
-Voilà, after few minutes (time for traefik to get certificates) you should be able to access wordpress at the address in `DOMAIN`
+*Voilà*, after few minutes (time for traefik to get certificates) you should be able to access wordpress at the address in `DOMAIN`
 
 ## Conclusion
 
-What I have learned, it is not always good to optimise things,different paradigm, containers have to keep simple and indempotent, 1 database per stack instead of 1 central and 
+What I have learned, it is not always good to optimise things,different paradigm, containers have to keep simple and indempotent, 1 database per stack instead of 1 central and fpm vs apache/php was too complex to operate.
