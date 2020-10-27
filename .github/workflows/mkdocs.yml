@@ -12,8 +12,9 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+      - name: Build and Deploy Documentation using MkDocs
+        uses: Tangerine-Community/tangy-mkdocs-build-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           CUSTOM_DOMAIN: htdocs.dev
+          MKDOCS_VERSION: 1.1.2
