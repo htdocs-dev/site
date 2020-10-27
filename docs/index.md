@@ -6,7 +6,19 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 
 !!! todo
-    **12 months, 12 projects**
+    **12 months, 12 micro-projects**
+
+    1. mailer test to json clone
+    2. reacher
+    3. templator / generate pdf
+    4. html renderer / record
+    5. test site content as a service
+    6. opsy / pipeline
+    7. spinner
+    8. online cron / ping scheduler
+    9. docker run workflow / simple UI/json / DAG
+    10. 
+    
 
 
 ## TODOs
