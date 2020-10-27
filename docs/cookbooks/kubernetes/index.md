@@ -1,10 +1,7 @@
 ---
-Kubernetes
+title: Concepts
 ---
 
-## Concepts
-
-Kubernetes Concepts
 Before diving in, let's look at some of the basic building blocks that you have to work with from the Kubernetes API:
 
 - A Node is a worker machine provisioned to run Kubernetes. Each Node is managed by the Kubernetes master.

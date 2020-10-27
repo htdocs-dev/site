@@ -1,5 +1,5 @@
 ---
-title: Easy Wordpress hosting with Docker and Portainer
+title: Wordpress hosting with Docker and Portainer
 ---
 
 EasyEngine did switch from installing php stack directly to the system to use docker images to create the different environments, but using command line. Using Portainer, we can skip those steps and manage deployment directly from the interface and control everything. But first we need to setup the system:
