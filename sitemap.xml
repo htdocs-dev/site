@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://htdocs.io/</loc>
+     <loc>https://htdocs.dev/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/airflow/</loc>
+     <loc>https://htdocs.dev/cookbooks/airflow/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/argo/</loc>
+     <loc>https://htdocs.dev/cookbooks/argo/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/docker_swarm/</loc>
+     <loc>https://htdocs.dev/cookbooks/docker_swarm/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/kubernetes/</loc>
+     <loc>https://htdocs.dev/cookbooks/kubernetes/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/portainer/</loc>
+     <loc>https://htdocs.dev/cookbooks/portainer/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/portainer/wordpress/</loc>
+     <loc>https://htdocs.dev/cookbooks/portainer/wordpress/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/cookbooks/vuejs3/</loc>
+     <loc>https://htdocs.dev/cookbooks/vuejs3/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/Tailwind%20Semantic%20UI/</loc>
+     <loc>https://htdocs.dev/projects/Tailwind%20Semantic%20UI/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_mta/</loc>
+     <loc>https://htdocs.dev/projects/cloud_mta/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_pipeline/</loc>
+     <loc>https://htdocs.dev/projects/cloud_pipeline/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_pipeline/airflow_docker/</loc>
+     <loc>https://htdocs.dev/projects/cloud_pipeline/airflow_docker/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_pipeline/luigi_docker/</loc>
+     <loc>https://htdocs.dev/projects/cloud_pipeline/luigi_docker/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_pipeline/prefect/</loc>
+     <loc>https://htdocs.dev/projects/cloud_pipeline/prefect/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/cloud_pipeline/vocabulary/</loc>
+     <loc>https://htdocs.dev/projects/cloud_pipeline/vocabulary/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/repositories/all/</loc>
+     <loc>https://htdocs.dev/projects/repositories/all/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/repositories/alpine-curl/</loc>
+     <loc>https://htdocs.dev/projects/repositories/alpine-curl/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/projects/repositories/bear-power-pack/</loc>
+     <loc>https://htdocs.dev/projects/repositories/bear-power-pack/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/contact/</loc>
+     <loc>https://htdocs.dev/contact/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.io/links/online-dev/</loc>
+     <loc>https://htdocs.dev/links/online-dev/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
