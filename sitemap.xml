@@ -4,15 +4,11 @@
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://htdocs.dev/cookbooks/airflow/</loc>
-     <lastmod>2020-10-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://htdocs.dev/cookbooks/argo/</loc>
-     <lastmod>2020-10-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://htdocs.dev/cookbooks/docker_swarm/</loc>
+     <lastmod>2020-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://htdocs.dev/cookbooks/google-cloud/</loc>
      <lastmod>2020-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
