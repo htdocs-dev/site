@@ -1,11 +1,11 @@
 site_name: HTDOCS
 ite_description: 
 site_author: Stephane Busso
-site_url: https://htdocs.io
+site_url: https://htdocs.dev
 repo_name: GitHub
-repo_url: https://github.com/htdocs-io/site
+repo_url: https://github.com/htdocs-dev/site
 edit_uri: edit/master/docs/
-copyright: 'Copyright &copy; 2020 HTDocs.io'
+copyright: 'Copyright &copy; 2020 HTDocs.dev'
 theme:
   name: material
   language: 'en'
