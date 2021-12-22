@@ -24,6 +24,10 @@
   /* height: 70px; */
 }
 
+.md-header__topic:first-child {
+    font-weight: 500;
+}
+
 main {
   background-color: rgb(245, 247, 249);
 }
